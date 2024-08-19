@@ -1,0 +1,28 @@
+.membros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.membro {
+  text-align: center;
+}
+
+.membro img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.membro img:hover {
+  transform: scale(1.2);
+}
+
+.membro p {
+  margin-top: 10px;
+  font-weight: bold;
+}
